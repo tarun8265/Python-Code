@@ -7,9 +7,10 @@ class B:
         print("welcome to home")
 
 class C(A,B):
-     def display(self):
+     def displayC(self):
         print("welcome to home")    
 
-obj = B()
+obj = C()
 obj.displayA()     
-obj.displayB()        
+obj.displayB()
+obj.displayC()        
